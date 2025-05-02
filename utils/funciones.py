@@ -13,7 +13,7 @@ from sklearn.metrics import (mean_absolute_error,
 
 #Factor de Inflación de la Varianza VIF
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-
+from sktime.performance_metrics.forecasting import mean_absolute_scaled_error
 
 
 # Función para graficar atributos en barras, pair plot o box-plot
